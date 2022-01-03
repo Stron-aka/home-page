@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+/*リンクのマーカー消す*/
+.delete-marker {
+    list-style: none;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    border-top: 10px solid #333 !important;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+.logo {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.logo p {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.header {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header ul{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.header ul li{
+    width: 200px;
+    min-width: 200px;
+    text-align: center;
+    border-right: 1px solid #ddd;
+}
+
+.header ul li :first-child {
+    border-left: 1px solid #ddd;
+}
+
+.header ul li a {
+    display: block;
+}
+.heder_img {
+    text-align: center;
+}
+
+.footer {
+    margin-top: 40px;
+}
+
+.pp_link {
+    text-align: right;
+}
+
+.copy {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    font-size: 12px;
+    padding: 7px 0 3px;
+
+}
